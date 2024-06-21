@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Uq/sz1Wnc++c5e+LA8KrWyHD3Dg4pKZNSlIBq+cmX5Y=",
+  "Source": "MVCAppApi",
+  "BasePath": "_content/MVCAppApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVCAppApi\\wwwroot",
+      "Source": "MVCAppApi",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\",
+      "BasePath": "_content/MVCAppApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\04c539d6-0a59-433d-9f42-c64956e4d6ec-papatya.jpg",
+      "SourceId": "MVCAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\",
+      "BasePath": "_content/MVCAppApi",
+      "RelativePath": "images/04c539d6-0a59-433d-9f42-c64956e4d6ec-papatya.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\04c539d6-0a59-433d-9f42-c64956e4d6ec-papatya.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp",
+      "SourceId": "MVCAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\",
+      "BasePath": "_content/MVCAppApi",
+      "RelativePath": "images/2d892464-298f-4a9a-995b-89ca997e822f-flw.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg",
+      "SourceId": "MVCAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\",
+      "BasePath": "_content/MVCAppApi",
+      "RelativePath": "images/9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg"
+    }
+  ]
+}

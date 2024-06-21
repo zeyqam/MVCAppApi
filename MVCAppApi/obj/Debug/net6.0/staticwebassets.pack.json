@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\04c539d6-0a59-433d-9f42-c64956e4d6ec-papatya.jpg",
+      "PackagePath": "staticwebassets\\images\\04c539d6-0a59-433d-9f42-c64956e4d6ec-papatya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp",
+      "PackagePath": "staticwebassets\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg",
+      "PackagePath": "staticwebassets\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MVCAppApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MVCAppApi.props",
+      "PackagePath": "build\\MVCAppApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MVCAppApi.props",
+      "PackagePath": "buildMultiTargeting\\MVCAppApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MVCAppApi.props",
+      "PackagePath": "buildTransitive\\MVCAppApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
