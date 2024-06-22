@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MVCAppApi.DTOs;
+using MVCAppApi.Helpers.Extensions;
 using MVCAppApi.Services.Interfaces;
 
 namespace MVCAppApi.Controllers
@@ -20,6 +21,17 @@ namespace MVCAppApi.Controllers
             {
                 return BadRequest(ModelState);
             }
+            if (!request.UploadImage.CheckFileType("images"))
+            {
+                ModelState.AddModelError("Image", "Input can accept only image format");
+                return BadRequest(ModelState);
+            }
+
+            if (!request.UploadImage.CheckFileSize(500))
+            {
+                ModelState.AddModelError("Image", "Image size must be max 200 KB");
+                return BadRequest(ModelState);
+            }
             await _sliderService.CreateAsync(request);
             return CreatedAtAction(nameof(Create), request);
         }
@@ -36,7 +48,24 @@ namespace MVCAppApi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Edit([FromRoute] int id, [FromForm] SliderEditDto request)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            if (request.UploadImage != null)
+            {
+                if (!request.UploadImage.CheckFileType("images"))
+                {
+                    ModelState.AddModelError("Image", "Input can accept only image format");
+                    return BadRequest(ModelState);
+                }
 
+                if (!request.UploadImage.CheckFileSize(500))
+                {
+                    ModelState.AddModelError("Image", "Image size must be max 200 KB");
+                    return BadRequest(ModelState);
+                }
+            }
             await _sliderService.EditAsync(id, request);
             return Ok();
         }

@@ -8,12 +8,14 @@ namespace MVCAppApi.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options):base(options) { }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Setting> Settings { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             builder.Entity<Slider>().HasQueryFilter(m => !m.SoftDeleted);
+            builder.Entity<Setting>().HasQueryFilter(m => !m.SoftDeleted);
 
 
 

@@ -4,6 +4,7 @@ using MVCAppApi.Helpers;
 using MVCAppApi.DTOs;
 using MVCAppApi.Services.Interfaces;
 using MVCAppApi.Services;
+using MVCAppApi.DTOs.Settings;
 
 namespace MVCAppApi.Injections
 {
@@ -17,7 +18,12 @@ namespace MVCAppApi.Injections
             });
             services.AddAutoMapper(typeof(MappingProfile).Assembly);
             services.AddScoped<IValidator<SliderCreateDto>, SliderCreateDtoValidator>();
+            services.AddScoped<IValidator<SliderEditDto>, SliderEditDtoValidator>();
+            services.AddScoped<IValidator<SettingCreateDto>, SettingCreateDtoValidator>();
+            services.AddScoped<IValidator<SettingEditDto>, SettingEditDtoValidator>();
+
             services.AddScoped<ISliderService, SliderService>();
+            services.AddScoped<ISettingService, SettingService>();
 
             return services;
         }

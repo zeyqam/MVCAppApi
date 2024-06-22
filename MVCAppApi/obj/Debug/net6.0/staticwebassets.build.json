@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Uq/sz1Wnc++c5e+LA8KrWyHD3Dg4pKZNSlIBq+cmX5Y=",
+  "Hash": "GngdIPkcgScZAEk3+NJVawz+vl4UQtddb+QHo7cIIk4=",
   "Source": "MVCAppApi",
   "BasePath": "_content/MVCAppApi",
   "Mode": "Default",
@@ -34,23 +34,6 @@
       "OriginalItemSpec": "wwwroot\\images\\04c539d6-0a59-433d-9f42-c64956e4d6ec-papatya.jpg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp",
-      "SourceId": "MVCAppApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\",
-      "BasePath": "_content/MVCAppApi",
-      "RelativePath": "images/2d892464-298f-4a9a-995b-89ca997e822f-flw.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp"
-    },
-    {
       "Identity": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg",
       "SourceId": "MVCAppApi",
       "SourceType": "Discovered",
@@ -66,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\ed845f7a-2660-4155-b564-724b9cc8bf8c-download.jpg",
+      "SourceId": "MVCAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\",
+      "BasePath": "_content/MVCAppApi",
+      "RelativePath": "images/ed845f7a-2660-4155-b564-724b9cc8bf8c-download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ed845f7a-2660-4155-b564-724b9cc8bf8c-download.jpg"
     }
   ]
 }

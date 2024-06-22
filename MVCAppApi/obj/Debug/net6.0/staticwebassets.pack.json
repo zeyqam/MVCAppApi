@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\images\\04c539d6-0a59-433d-9f42-c64956e4d6ec-papatya.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp",
-      "PackagePath": "staticwebassets\\images\\2d892464-298f-4a9a-995b-89ca997e822f-flw.webp"
-    },
-    {
       "Id": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg",
       "PackagePath": "staticwebassets\\images\\9cf0dcb0-c02a-49e5-823a-d3298cf79f95-download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\MVCAppApi\\MVCAppApi\\wwwroot\\images\\ed845f7a-2660-4155-b564-724b9cc8bf8c-download.jpg",
+      "PackagePath": "staticwebassets\\images\\ed845f7a-2660-4155-b564-724b9cc8bf8c-download.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MVCAppApi.Microsoft.AspNetCore.StaticWebAssets.props",
