@@ -5,6 +5,7 @@ using MVCAppApi.DTOs;
 using MVCAppApi.Services.Interfaces;
 using MVCAppApi.Services;
 using MVCAppApi.DTOs.Settings;
+using MVCAppApi.DTOs.Abouts;
 
 namespace MVCAppApi.Injections
 {
@@ -21,9 +22,13 @@ namespace MVCAppApi.Injections
             services.AddScoped<IValidator<SliderEditDto>, SliderEditDtoValidator>();
             services.AddScoped<IValidator<SettingCreateDto>, SettingCreateDtoValidator>();
             services.AddScoped<IValidator<SettingEditDto>, SettingEditDtoValidator>();
+            services.AddScoped<IValidator<AboutCreateDto>, AboutCreateDtoValidator>();
+            services.AddScoped<IValidator<AboutEditDto>, AboutEditDtoValidator>();
+            
 
             services.AddScoped<ISliderService, SliderService>();
             services.AddScoped<ISettingService, SettingService>();
+            services.AddScoped<IAboutService, AboutService>();
 
             return services;
         }
